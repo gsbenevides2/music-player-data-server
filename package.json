@@ -1,10 +1,9 @@
 {
  "name": "music-player-data-server",
  "version": "1.0.0",
- "main": "index.js",
+ "main": "app/index.js",
  "license": "MIT",
  "scripts": {
-	"main":"app/index.js",
   "start": "node app/index.js",
   "dev": "ts-node-dev --cls --respawn --ignore-watch=node_modules --transpile-only src/index.ts",
   "build": "tsc"
